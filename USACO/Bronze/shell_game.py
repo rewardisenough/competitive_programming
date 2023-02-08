@@ -1,3 +1,5 @@
+# Solution credit: https://usaco.guide/bronze/simulation?lang=py
+
 input_file = open('shell.in','r') # read the file
 
 N = int(input_file.readline()) # read only the first line
