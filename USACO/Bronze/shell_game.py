@@ -1,3 +1,5 @@
+# problem: http://www.usaco.org/index.php?page=viewproblem2&cpid=891
+
 # Solution credit: https://usaco.guide/bronze/simulation?lang=py
 
 input_file = open('shell.in','r') # read the file
