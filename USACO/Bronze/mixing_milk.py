@@ -1,3 +1,5 @@
+#Problem: http://www.usaco.org/index.php?page=viewproblem2&cpid=855
+
 '''
 when mixing milk, there are 2 options.
 1. give all (m1 -> m2), when m1 < c2-m2. Ex: m1=3, c2=10,m2=5.
