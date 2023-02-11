@@ -19,6 +19,7 @@ For example, 'HHG', k=2. First, '..H', you might think that G should go into n-2
 t = int(input())
 
 for _ in range(t):
+  
   # set up
   n,k = [int(i) for i in input().split()]
   
