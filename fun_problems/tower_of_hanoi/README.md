@@ -74,7 +74,7 @@ We said " Then, solution is A -> B, A -> C, B -> C. ".
 Based on that observation, if we start with hanoi(2,"A","B","C"), it makes sense that first function is hanoi(n-1,start,end,middle) and second function is hanoi(n-1,middle,start,end).
 
 We just saw that we can solve problem of n=2 just by using hanoi function with n=1. Then, we can also solve n=3 just by using hanoi function with n=2. 
-Consequently, hanoi function with n=2 then uses hanoi function with n=1. 
+Consequently, hanoi function with n=2 then uses hanoi function with n=1. Similar pattern occurs for any number of 'n'.
 
 One important thing to notice is that when you call hanoi(3,"A","B","C"), inside of that function, hanoi(2,"A","C","B") and hanoi(2,"B","A","C") is called. 
 That's what makes biggest disk moving from A -> C possible. 
