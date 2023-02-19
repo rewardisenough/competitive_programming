@@ -1,3 +1,3 @@
 # competitive_programming, started: 2/4/2023
 
-# Problems solved: 5
+# Problems solved: 6
