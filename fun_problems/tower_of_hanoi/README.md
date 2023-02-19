@@ -77,7 +77,7 @@ We just saw that we can solve problem of n=2 just by using hanoi function with n
 Consequently, hanoi function with n=2 then uses hanoi function with n=1. Similar pattern occurs for any number of 'n'.
 
 One important thing to notice is that when you call hanoi(3,"A","B","C"), inside of that function, hanoi(2,"A","C","B") and hanoi(2,"B","A","C") is called. 
-That's what makes biggest disk moving from A -> C possible. This part is the most interesting to me. 
+That's what makes biggest disk moving from A -> C possible. It's interesting how the same code for solving n=2 can 'adapt' to solving n=3.
 
 
 # Closing note
