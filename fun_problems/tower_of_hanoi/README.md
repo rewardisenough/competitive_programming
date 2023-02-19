@@ -55,11 +55,11 @@ def hanoi(n,start,middle,end):
   if(n==0):
     return
    
-   hanoi(n-1,start,end,middle) # A -> B
+  hanoi(n-1,start,end,middle) # A -> B
    
-   print(f"{start} -> {end}") # A -> C
+  print(f"{start} -> {end}") # A -> C
    
-   hanoi(n-1, middle,start,end) # B -> C
+  hanoi(n-1, middle,start,end) # B -> C
 ```
 First, you may ask why n-1? Because we already know how hanoi function works when n=1. Then, when we're trying to solve when n=2, we can use hanoi(n=1).
 Hanoi(n=1) just moves 'start' to 'end'. 
@@ -76,9 +76,8 @@ Based on that observation, if we start with hanoi(2,"A","B","C"), it makes sense
 We just saw that we can solve problem of n=2 just by using hanoi function with n=1. Then, we can also solve n=3 just by using hanoi function with n=2. 
 Consequently, hanoi function with n=2 then uses hanoi function with n=1. Similar pattern occurs for any number of 'n'.
 
-One important thing to notice is that when you call hanoi(3,"A","B","C"), inside of that function, hanoi(2,"A","C","B") and hanoi(2,"B","A","C") is called. 
-That's what makes biggest disk moving from A -> C possible. It's interesting how the same code for solving n=2 can 'adapt' to solving n=3. I'm interested to know how someone came up with this solution. Maybe through many observations?
-
+One important thing to notice is that when you call hanoi(3,"A","B","C"), inside of that function, hanoi(2,"A","C","B") and hanoi(2,"B","A","C") are called. 
+That's what makes biggest disk moving from A -> C possible. It's interesting how the same code for solving n=2 can 'adapt' to solving n=3 or any number of n.
 
 # Closing note
 The purpose of writing this was to show my thought process of understanding the solution to this problem. When I initially saw the solution to this problem, I didn't understand it at all. So I decided to think about the solution from scratch. Through out that thinking process, I was able to understand the little details which was crucial to understanding the solution. 
