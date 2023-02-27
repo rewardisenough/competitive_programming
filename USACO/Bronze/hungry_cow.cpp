@@ -17,14 +17,9 @@ int main() {
     last_d = cur_d;
   }
   // check last n to t.
-  if(n==1){
-    if(t>last_b) total_eat += last_b;
-    else total_eat += t;
-  }
-  else{
-    if(t-last_d+1 > total_food) total_eat += total_food;
-    else total_eat += t-last_d+1;
-  }
+  if(t-last_d+1 > total_food) total_eat += total_food;
+  else total_eat += t-last_d+1;
+
   //output
   cout << total_eat << "\n";
 }
