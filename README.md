@@ -6,4 +6,9 @@
 
 https://open.kattis.com/contests/nkom6r/problems/anti11
 
+(Interactive problems)
+
+https://codeforces.com/blog/entry/45307
+
 https://atcoder.jp/contests/practice/tasks/practice_2
+
