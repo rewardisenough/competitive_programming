@@ -1,6 +1,6 @@
 # competitive_programming, started: 2/4/2023
 
-# Problems solved: 9
+# Problems solved: 10
 
 # Problems that I will come back to later(I can't solve them at the moment)
 
