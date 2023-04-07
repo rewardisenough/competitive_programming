@@ -17,3 +17,6 @@ https://atcoder.jp/contests/practice/tasks/practice_2
 (USACO)
 
 http://www.usaco.org/index.php?page=viewproblem2&cpid=1300
+
+Stamp Grid:
+http://www.usaco.org/index.php?page=viewproblem2&cpid=1300 
