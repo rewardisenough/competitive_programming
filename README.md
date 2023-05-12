@@ -4,6 +4,10 @@
 
 # Problems that I will come back to later(I can't solve them at the moment)
 
+(Codeforces)
+
+https://codeforces.com/contest/1832/problem/A
+
 (Kattis)
 
 https://open.kattis.com/contests/nkom6r/problems/anti11
